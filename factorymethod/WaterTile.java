@@ -2,8 +2,8 @@ package factorymethod;
 
 public class WaterTile implements Tile {
     @Override
-    public char getCharacter() {
-        return 'W';
+    public String getCharacter() {
+        return "🌊";
     }
 
     @Override

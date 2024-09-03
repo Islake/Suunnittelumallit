@@ -6,11 +6,11 @@ public class Game {
 
         Map cityMap = game.createMap("city");
         System.out.println("City Map:");
-        cityMap.display(5, 5);
+        cityMap.display(10, 10);
 
         Map wildernessMap = game.createMap("wilderness");
         System.out.println("\nWilderness Map:");
-        wildernessMap.display(5, 5);
+        wildernessMap.display(10, 10);
     }
 
     public Map createMap(String type) {

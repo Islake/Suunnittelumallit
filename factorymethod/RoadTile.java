@@ -2,8 +2,8 @@ package factorymethod;
 
 public class RoadTile implements Tile {
     @Override
-    public char getCharacter() {
-        return 'R';
+    public String getCharacter() {
+        return "🛣️";
     }
 
     @Override

@@ -1,7 +1,7 @@
 package factorymethod;
 
 public interface Tile {
-    char getCharacter();
+    String getCharacter();
 
     String getType();
 }

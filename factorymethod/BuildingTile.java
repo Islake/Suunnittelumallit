@@ -2,8 +2,8 @@ package factorymethod;
 
 public class BuildingTile implements Tile {
     @Override
-    public char getCharacter() {
-        return 'B';
+    public String getCharacter() {
+        return "🏢";
     }
 
     @Override

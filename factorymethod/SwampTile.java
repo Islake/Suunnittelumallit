@@ -2,8 +2,8 @@ package factorymethod;
 
 public class SwampTile implements Tile {
     @Override
-    public char getCharacter() {
-        return 'S';
+    public String getCharacter() {
+        return "🌿";
     }
 
     @Override
